@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Input Types</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <h3 class="title">Text Input</h3>
+            <div class="field">
+                <label class="label">Text</label>
+                <div class="control">
+                    <input class="input" type="text" placeholder="Text input">
+                </div>
+            </div>
+            <div class="field">
+                <label class="label">Text - autocapitalize sentence</label>
+                <div class="control">
+                    <input class="input" type="text" autocapitalize="sentences" placeholder="Text input">
+                </div>
+            </div>
+            <div class="field">
+                <label class="label">Text - autocapitalize words</label>
+                <div class="control">
+                    <input class="input" type="text" autocapitalize="words" placeholder="Text input">
+                </div>
+            </div>
+            <div class="field">
+                <label class="label">Text - autocapitalize characters</label>
+                <div class="control">
+                    <input class="input" type="text" autocapitalize="characters" placeholder="Text input">
+                </div>
+            </div>
+            <label class="label">Search</label>
+            <div class="field has-addons">
+                <div class="control is-expanded">
+                    <input class="input" type="search" placeholder="Search">
+                </div>
+                <div class="control">
+                    <a class="button is-info">
+                        Search
+                    </a>
+                </div>
+            </div>
+            <div class="field">
+                <label class="label">Url</label>
+                <div class="control">
+                    <input class="input" type="url" placeholder="Url">
+                </div>
+            </div>
+            <div class="field">
+                <label class="label">Email</label>
+                <div class="control has-icons-left">
+                    <span class="icon is-small is-left">
+                        <i class="fas fa-envelope"></i>
+                    </span>
+                    <input class="input" type="email" placeholder="Email">
+                </div>
+            </div>
+            <div class="field">
+                <label class="label">Password</label>
+                <div class="control">
+                    <input class="input" type="password" placeholder="Password">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <hr class="hr">
+            <h3 class="title">Date & Time Input</h3>
+            <div class="field">
+                <label class="label">Date</label>
+                <div class="control">
+                    <input class="input" type="date" placeholder="Date">
+                </div>
+            </div>
+            <div class="field">
+                <label class="label">Week</label>
+                <div class="control">
+                    <input class="input" type="week" placeholder="Week">
+                </div>
+            </div>
+            <div class="field">
+                <label class="label">Month</label>
+                <div class="control">
+                    <input class="input" type="month" placeholder="Month">
+                </div>
+            </div>
+            <div class="field">
+                <label class="label">Time</label>
+                <div class="control">
+                    <input class="input" type="time" placeholder="Time">
+                </div>
+            </div>
+            <div class="field">
+                <label class="label">Datetime</label>
+                <div class="control">
+                    <input class="input" type="datetime" placeholder="Datetime">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <hr class="hr">
+            <h3 class="title">Number Input</h3>
+            <div class="field">
+                <label class="label">Number</label>
+                <div class="control">
+                    <input class="input" type="number" placeholder="Number">
+                </div>
+            </div>
+            <div class="field">
+                <label class="label">Telephone</label>
+                <div class="control">
+                    <input class="input" type="tel" placeholder="Phone Number">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <hr class="hr">
+            <h3 class="title">Color Input</h3>
+            <div class="field">
+                <label class="label">Color</label>
+                <div class="control">
+                    <input class="input" type="color" placeholder="Color">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <hr class="hr">
+            <h3 class="title">Image Input</h3>
+            <div class="field">
+                <label class="label">Image</label>
+                <div class="control">
+                    <input class="input" type="file" accept="image/*" placeholder="Image">
+                </div>
+            </div>
+            <div class="field">
+                <label class="label">Camera - User</label>
+                <div class="control">
+                    <input class="input" type="file" accept="image/*" capture="user" placeholder="Image">
+                </div>
+            </div>
+            <div class="field">
+                <label class="label">Camera - Environment</label>
+                <div class="control">
+                    <input class="input" type="file" accept="image/*" capture="environment" placeholder="Image">
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
